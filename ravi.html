@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>page tittle</title>
+</head>
+<style>
+.body {
+}
+.main {
+display:flex;
+flex-direction: column;
+}
+
+.header {
+display:flex;
+flex-flow: row;
+background-color: Wheat;
+height: 50px;
+align-items: center;
+border: 1px solid green;
+padding:10px;
+}
+
+.youtubeTitle {
+background-color: red;
+flex: 20%;
+border: 1px solid blue;
+text-align:center;
+color: white;
+font-weight: bold;
+}
+
+.search {
+background-color: white;
+flex: 80%;
+border: 1px solid blue;
+margin-left: 10px;
+padding: 15px 10px;
+}
+
+.container {
+display:flex;
+flex-direction: row;
+height: 700px;
+border: 1px solid red;
+background-color: LightGray;
+}
+.content {
+display: flex;
+flex-flow: column;
+flex: 70%;
+align-content: space-between;
+border: 1px solid orange;
+}
+
+
+.video {
+display:flex;
+flex-direction: column;
+flex: 40%;
+padding: 10px;
+}
+
+.videofile {
+background-color: black;
+flex: 90%;
+border: 1px solid blue;
+}
+
+.video-info {
+display: flex;
+flex-flow: row;
+margin-top:10px;
+align-items: center;
+}
+
+.videoTitle {
+background-color: white;
+flex: 70%;
+border: 1px solid blue;
+padding: 5px;
+}
+
+.socialMedia {
+display:flex;
+flex-direction: row;
+background-color: SlateBlue;
+align-items: center;
+text-align: center;
+justify-content: space-around;
+align-items: stretch;
+align-content: stretch;
+flex: 30%;
+margin-left: 10px;
+}
+
+.views {
+background-color: Teal;
+border: 1px solid blue;
+flex-grow: 1;
+padding: 5px;
+color: white;
+font-weight: 2;
+}
+.likes {
+background-color: SteelBlue;
+border: 1px solid blue;
+flex-grow: 1;
+padding: 5px;
+color: white;
+font-weight: 2;
+}
+.shares {
+background-color: LightSeaGreen;
+border: 1px solid blue;
+flex-grow: 1;
+padding: 5px;
+color: white;
+font-weight: 2;
+}
+.videoComments {
+display:flex;
+flex-flow: column wrap;
+flex: 50%;
+justify-content: space-around;
+padding: 10px;
+align-items: stretch;
+}
+.comment1 {
+background-color: LightBlue;
+border: 1px solid blue;
+flex-grow:1;
+}
+.comment2 {
+background-color: LightBlue;
+border: 1px solid blue;
+flex-grow:1;
+}
+.comment3 {
+background-color: LightBlue;
+border: 1px solid blue;
+flex-grow:1;
+}
+.comment4 {
+background-color: Lightblue;
+border: 1px solid blue;
+flex-grow:1;
+}
+.comment5 {
+background-color: LightBlue;
+border: 1px solid blue;
+flex-grow:1;
+}
+
+.suggestions {
+display: flex;
+flex-flow: column wrap;
+background-color: LightGray;
+flex: 30%;
+justify-content: space-around;
+padding: 10px;
+border: 1px solid Tomato;
+}
+.suggestion1 {
+background-color: SeaShell;
+border: 1px solid blue;
+flex-grow:1;
+}
+.suggestion2 {
+background-color: SeaShell;
+border: 1px solid blue;
+flex-grow:1;
+}
+.suggestion3 {
+background-color: SeaShell;
+border: 1px solid blue;
+flex-grow:1;
+}
+.suggestion4 {
+background-color: SeaShell;
+border: 1px solid blue;
+flex-grow:1;
+}
+.suggestion5 {
+background-color: SeaShell;
+border: 1px solid blue;
+flex-grow:1;
+}
+.suggestion6 {
+background-color: SeaShell;
+border: 1px solid blue;
+flex-grow:1;
+}
+</style>
+<body>
+	<div class="main">
+    	<div class="header">
+        	<div class="youtubeTitle"><p>Youtube</p></div>
+        	<div class="search">Search</div>
+        </div>
+        
+        <div class="container">
+        	<div class="content">
+            	<div class="video">
+                	<div class="videofile">
+                    </div>
+                    <div class="video-info">
+                    	<div class="videoTitle">Video Title</div>
+                		<div class="socialMedia">
+                    		<div class="views">Views</div>
+                			<div class="likes">Likes</div>
+                    		<div class="shares">Shares</div>
+                		</div>
+                    </div>
+                </div>
+                <hr width="97%" />
+                <div class="videoComments">
+                	<div class="comment1">comment1</div>
+                    <div class="comment2">comment2</div>
+                    <div class="comment3">comment3</div>
+                    <div class="comment4">comment4</div>
+                    <div class="comment5">comment5</div>
+                </div>
+            </div>
+            
+            <div class="suggestions">
+            	<div class="suggestion1">suggestion1</div>
+                <div class="suggestion2">suggestion2</div>
+                <div class="suggestion3">suggestion3</div>
+                <div class="suggestion4">suggestion4</div>
+                <div class="suggestion5">suggestion5</div>
+                <div class="suggestion6">suggestion6</div>
+            </div>
+        </div>
+	</div>
+
+	
+</body>
+</html>
